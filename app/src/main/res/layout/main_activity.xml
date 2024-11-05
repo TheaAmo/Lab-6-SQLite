@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/productNameInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Product Name" />
+
+    <EditText
+        android:id="@+id/productSkuInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Product SKU"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/addProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Product" />
+
+    <Button
+        android:id="@+id/findProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Find Product" />
+
+    <Button
+        android:id="@+id/deleteProductButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete Product" />
+
+    <TextView
+        android:id="@+id/productInfoDisplay"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="16dp"
+        android:text="Product Info" />
+</LinearLayout>
